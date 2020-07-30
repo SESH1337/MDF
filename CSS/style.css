@@ -1,0 +1,125 @@
+@font-face{
+    src: url(../FONTS/bpg_nino_mtv_cond.woff);
+    font-family:'bpg_nino_mtv_condCnRg';
+}
+body{
+    background-color: wheat;
+}
+header{
+    max-width: 100%;
+}
+.container{
+    background-color:#2d3e50 ;
+    max-width: 100%;
+}
+.menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.logo{
+    padding: 5px;
+    margin-left: 55px;
+
+}
+.bar{
+    position: absolute;
+    /* width: 20%; */
+    display: block;
+}
+.nav-ul{
+    margin-left: 35px;
+    display: flex;
+}
+.nav-li a{
+    color: #fff;
+    /* margin-left: 15px; */
+}
+.nav-li{
+    margin-left: 20px;
+    font-size: 19px;
+    font-family:'bpg_nino_mtv_condCnRg';
+    
+}
+.bar ul li a{
+    margin-top: -35px;
+    color: black;
+    width: 100%;
+}
+.bar ul{
+    margin-top: 35px;
+    background-color: white;
+}
+.bar ul li:hover{
+    background-color: #ffcc29;
+    cursor: pointer;
+    color: black;
+}
+.bar ul li a:hover{
+
+    color: black;
+}
+
+
+.bar ul li{
+    display: none;
+    margin-top: 10px;
+    background-color: #fff;
+    font-family:'bpg_nino_mtv_condCnRg';
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.nav-li a:hover{
+    color:#ffcc29;
+    
+}
+.nav-li:hover ul li{
+    display: block;
+}
+
+
+.purple-box{
+    align-items: center;
+    height: 84px;
+    width: 250px;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    background-color: rgba(132, 67, 151, 1); 
+    justify-content: space-between;
+    margin-left: 10px;
+    /* padding: 100 20px; */
+}
+.search{
+    margin-left: 10px;
+    font-size: 19px;
+    font-family:'bpg_nino_mtv_condCnRg';
+    display: flex;
+    justify-content: space-between;
+}
+.search img{
+    margin-left: 10px;
+
+}
+.lang{
+    align-items: center;
+}
+
+.language{
+    font-size: 19px;
+    font-family:'bpg_nino_mtv_condCnRg';
+    display: flex;
+    justify-content: space-between;
+    margin-right:60px;
+}
+
+.white{
+    color: #fff;
+}
