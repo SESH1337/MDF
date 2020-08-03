@@ -88,24 +88,21 @@ header{
     position: absolute;
     z-index: 1111;
 }
-.bar ul:hover{
-    content: '';
-    margin-top: 15px;
-}
+
 .bar ul li:hover{
     background-color: #ffcc29;
     cursor: pointer;
     color: black;
-
 }
 
 
 .bar ul li a:hover{
     color: black;
 }
+
 .bar ul li{
     /* position: relative; */
-    z-index:12;
+    /* z-index:12; */
     display: none;
     top: 10px;
     background-color: #fff;
@@ -262,7 +259,7 @@ slide:nth-child(4){
     align-items: center;
     padding: 30px;
     width: 100%;
-    z-index: 999999999;
+    /* z-index: 999999999; */
     opacity: 0.9;
     justify-content: space-between;
     display: flex;
@@ -420,7 +417,6 @@ slide:nth-child(4){
     flex-direction: column;
 }
 .tolerant{
-   margin-right: 50px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -456,7 +452,7 @@ slide:nth-child(4){
     padding: 5px; 
     margin-bottom: 10px;
     margin-top: 10px;
-    border-radius: 5px!important;
+    border-radius: 5px;
     width: 225px;
     height: 35px;
     border-color: #BDC3C7;
