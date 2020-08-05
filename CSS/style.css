@@ -135,6 +135,61 @@ header{
     margin-left: 10px;
     /* padding: 100 20px; */
 }
+/* .dd{
+    display: none;
+} */
+.search-input{
+    position: absolute;
+    display: flex;
+    display: none;
+    height: 84px;
+    width: 300px;
+    justify-content: space-between;
+    right: 120px;
+    background-color: rgba(132, 67, 151, 1); 
+}
+.search-input input[type='text']{
+    background-image: url(../IMAGES/search.png);
+    background-repeat: no-repeat;
+    background-position:center right 15px; ;
+
+}
+
+
+.search-input input::placeholder{
+    color:#1f1f1f;
+    display: flex;
+    font-family:'bpg_nino_mtv_condCnRg';
+    display: flex;
+    /* padding-left: 15px; */
+    font-size: 15px;
+}
+
+
+/* .search-a{
+    position: absolute;
+    display: flex;
+} */
+
+.inputForJs{
+    border: none;
+    outline: none;
+    left: 15px;
+    top:16px;
+    display: flex;
+    position: relative;
+    /* background-color: #8E44AD; */
+    width: 250px;
+    background: #643173;
+    color-adjust: bold;
+    height: 50px;
+    /* align-items: center; */
+}
+
+.search-input input:focus{
+    color: #fff;
+
+}
 .search{
     margin-left: 10px;
     font-size: 19px;
@@ -142,12 +197,22 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 .search img{
     margin-left: 10px;
-
 }
-.lang{
-    align-items: center;
+
+.reqta-img{
+    width: 30px;
+    position: absolute;
+    margin-top: 6px;   
+}
+.reqta-img::after{
+    content: '';
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+    position: absolute;
 }
 
 .language{
@@ -156,6 +221,38 @@ header{
     display: flex;
     justify-content: space-between;
     margin-right:60px;
+    position: relative;
+    z-index: 999999;
+}
+.cont-lang{
+    display: none;
+    position: relative;
+    padding-top:-45px;
+    line-height: inherit;
+}
+.eng:hover{
+    background-color: #ffcc29;
+    cursor: pointer;
+}
+
+.box-lang{
+    vertical-align: middle;
+    top: 0;
+    display: relative;
+    position: absolute;
+    margin-top: 20px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color:#fff;
+    right: -30px;
+}
+
+.box-lang p{
+   vertical-align: middle;
+    top: 0px;
+    position: relative;
+    padding:20px 30px 20px 30px;
+    color: black;
+    font-family:'bpg_nino_mtv_condCnRg';
 }
 *{
     list-style: none;
@@ -460,11 +557,13 @@ slide:nth-child(4){
     border-radius: 5px;
     width: 225px;
     height: 35px;
-    border-color: #BDC3C7;
+    /* border-color: #BDC3C7; */
+    border: 2px solid #BDC3C7!important;
 }
 .purple-button{
     background-color:#8E44AD;
     border-radius: 5px!important;
+    border: none;
 }
 button li{
     cursor: pointer;
