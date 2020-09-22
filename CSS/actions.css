@@ -206,3 +206,17 @@
     justify-content: center;
 }
 /* </p><p class="tabs-p" style="margin-bottom: 5px; font-family:'bpg_glaho_2';">   */
+.corona{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted #844397;
+}
+.corona img{
+    width: 350px;
+}
+/* .text-save p{
+    padding: 10px;
+} */
+.img-prob:hover{
+    background:rgb(132, 67, 151, 1);
+}

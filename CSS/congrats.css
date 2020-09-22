@@ -113,7 +113,7 @@
 
 
 .tabs__nav :first-child{
-    width: 15%;
+    width: 25%;
     color:rgb(132, 67, 151, 1); 
 }
 .tabs__nav :nth-child(4){
@@ -123,7 +123,7 @@
     width: 15%;
 }
 .tabs__nav :nth-child(3){
-    width: 10%;
+    width: 30%;
     padding-right: -55px;
 }
 .tabs__nav :nth-child(5){
@@ -206,3 +206,20 @@
     justify-content: center;
 }
 /* </p><p class="tabs-p" style="margin-bottom: 5px; font-family:'bpg_glaho_2';">   */
+.corona{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted #844397;
+}
+.corona img{
+    width: 250px;
+    padding: 40px;
+}
+/* .text-save p{
+    padding: 10px;
+} */
+.corona img:hover{
+    background:rgb(132, 67, 151, 1);
+    cursor: pointer;
+    opacity: 0.9;
+}
